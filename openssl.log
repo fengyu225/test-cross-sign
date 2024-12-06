@@ -1,0 +1,666 @@
+Connecting to 127.0.0.1
+CONNECTED(00000003)
+>>> TLS 1.0, RecordHeader [length 0005]
+    16 03 01 01 42
+>>> TLS 1.3, Handshake [length 0142], ClientHello
+    01 00 01 3e 03 03 da 96 d3 f4 62 fb b5 26 5f 8a
+    1f a6 02 9d 4d 35 7b c0 97 cc 2f 88 6b 52 7d 5e
+    66 c4 55 2f ec ee 20 f5 95 d2 3d 1b 98 54 19 fe
+    6d f7 4a b6 37 e1 11 a5 3c 82 86 9b 70 c0 20 f5
+    36 64 42 e9 50 74 37 00 3c 13 02 13 03 13 01 c0
+    2c c0 30 00 9f cc a9 cc a8 cc aa c0 2b c0 2f 00
+    9e c0 24 c0 28 00 6b c0 23 c0 27 00 67 c0 0a c0
+    14 00 39 c0 09 c0 13 00 33 00 9d 00 9c 00 3d 00
+    3c 00 35 00 2f 01 00 00 b9 ff 01 00 01 00 00 00
+    00 15 00 13 00 00 10 74 65 73 74 2e 65 78 61 6d
+    70 6c 65 2e 63 6f 6d 00 0b 00 04 03 00 01 02 00
+    0a 00 16 00 14 00 1d 00 17 00 1e 00 19 00 18 01
+    00 01 01 01 02 01 03 01 04 00 23 00 00 00 16 00
+    00 00 17 00 00 00 0d 00 30 00 2e 04 03 05 03 06
+    03 08 07 08 08 08 1a 08 1b 08 1c 08 09 08 0a 08
+    0b 08 04 08 05 08 06 04 01 05 01 06 01 03 03 03
+    01 03 02 04 02 05 02 06 02 00 2b 00 05 04 03 04
+    03 03 00 2d 00 02 01 01 00 33 00 26 00 24 00 1d
+    00 20 74 b6 63 4d 06 d4 70 1a ba 28 f1 51 e5 89
+    88 1d 62 47 fe 55 77 81 d4 95 38 b8 17 ea 3a df
+    7c 75
+write to 0x600003b87c80 [0x12d023400] (327 bytes => 327 (0x147))
+0000 - 16 03 01 01 42 01 00 01-3e 03 03 da 96 d3 f4 62   ....B...>......b
+0010 - fb b5 26 5f 8a 1f a6 02-9d 4d 35 7b c0 97 cc 2f   ..&_.....M5{.../
+0020 - 88 6b 52 7d 5e 66 c4 55-2f ec ee 20 f5 95 d2 3d   .kR}^f.U/.. ...=
+0030 - 1b 98 54 19 fe 6d f7 4a-b6 37 e1 11 a5 3c 82 86   ..T..m.J.7...<..
+0040 - 9b 70 c0 20 f5 36 64 42-e9 50 74 37 00 3c 13 02   .p. .6dB.Pt7.<..
+0050 - 13 03 13 01 c0 2c c0 30-00 9f cc a9 cc a8 cc aa   .....,.0........
+0060 - c0 2b c0 2f 00 9e c0 24-c0 28 00 6b c0 23 c0 27   .+./...$.(.k.#.'
+0070 - 00 67 c0 0a c0 14 00 39-c0 09 c0 13 00 33 00 9d   .g.....9.....3..
+0080 - 00 9c 00 3d 00 3c 00 35-00 2f 01 00 00 b9 ff 01   ...=.<.5./......
+0090 - 00 01 00 00 00 00 15 00-13 00 00 10 74 65 73 74   ............test
+00a0 - 2e 65 78 61 6d 70 6c 65-2e 63 6f 6d 00 0b 00 04   .example.com....
+00b0 - 03 00 01 02 00 0a 00 16-00 14 00 1d 00 17 00 1e   ................
+00c0 - 00 19 00 18 01 00 01 01-01 02 01 03 01 04 00 23   ...............#
+00d0 - 00 00 00 16 00 00 00 17-00 00 00 0d 00 30 00 2e   .............0..
+00e0 - 04 03 05 03 06 03 08 07-08 08 08 1a 08 1b 08 1c   ................
+00f0 - 08 09 08 0a 08 0b 08 04-08 05 08 06 04 01 05 01   ................
+0100 - 06 01 03 03 03 01 03 02-04 02 05 02 06 02 00 2b   ...............+
+0110 - 00 05 04 03 04 03 03 00-2d 00 02 01 01 00 33 00   ........-.....3.
+0120 - 26 00 24 00 1d 00 20 74-b6 63 4d 06 d4 70 1a ba   &.$... t.cM..p..
+0130 - 28 f1 51 e5 89 88 1d 62-47 fe 55 77 81 d4 95 38   (.Q....bG.Uw...8
+0140 - b8 17 ea 3a df 7c 75                              ...:.|u
+read from 0x600003b87c80 [0x12e01bc03] (5 bytes => 5 (0x5))
+0000 - 16 03 03 00 7a                                    ....z
+<<< TLS 1.2, RecordHeader [length 0005]
+    16 03 03 00 7a
+read from 0x600003b87c80 [0x12e01bc08] (122 bytes => 122 (0x7A))
+0000 - 02 00 00 76 03 03 74 dd-1e 45 93 93 8d 95 c1 e8   ...v..t..E......
+0010 - 5f 1f 43 53 35 6c 48 c6-ad 7a a5 b0 f5 00 40 e4   _.CS5lH..z....@.
+0020 - e0 b0 6b 8f 1d be 20 f5-95 d2 3d 1b 98 54 19 fe   ..k... ...=..T..
+0030 - 6d f7 4a b6 37 e1 11 a5-3c 82 86 9b 70 c0 20 f5   m.J.7...<...p. .
+0040 - 36 64 42 e9 50 74 37 13-02 00 00 2e 00 2b 00 02   6dB.Pt7......+..
+0050 - 03 04 00 33 00 24 00 1d-00 20 cd cd 16 60 ba 70   ...3.$... ...`.p
+0060 - 98 d1 4c 63 a7 a3 4f b3-e6 db 2d 3f 1b fe 0d c0   ..Lc..O...-?....
+0070 - 5d bc 64 c4 17 0d 7d 44-d9 25                     ].d...}D.%
+<<< TLS 1.3, Handshake [length 007a], ServerHello
+    02 00 00 76 03 03 74 dd 1e 45 93 93 8d 95 c1 e8
+    5f 1f 43 53 35 6c 48 c6 ad 7a a5 b0 f5 00 40 e4
+    e0 b0 6b 8f 1d be 20 f5 95 d2 3d 1b 98 54 19 fe
+    6d f7 4a b6 37 e1 11 a5 3c 82 86 9b 70 c0 20 f5
+    36 64 42 e9 50 74 37 13 02 00 00 2e 00 2b 00 02
+    03 04 00 33 00 24 00 1d 00 20 cd cd 16 60 ba 70
+    98 d1 4c 63 a7 a3 4f b3 e6 db 2d 3f 1b fe 0d c0
+    5d bc 64 c4 17 0d 7d 44 d9 25
+read from 0x600003b87c80 [0x12d029803] (5 bytes => 5 (0x5))
+0000 - 14 03 03 00 01                                    .....
+<<< TLS 1.2, RecordHeader [length 0005]
+    14 03 03 00 01
+read from 0x600003b87c80 [0x12d029808] (1 bytes => 1 (0x1))
+0000 - 01                                                .
+<<< TLS 1.3, ChangeCipherSpec [length 0001]
+    01
+read from 0x600003b87c80 [0x12d029803] (5 bytes => 5 (0x5))
+0000 - 17 03 03 00 1b                                    .....
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 1b
+read from 0x600003b87c80 [0x12d029808] (27 bytes => 27 (0x1B))
+0000 - 10 f7 15 f7 d3 be 79 31-ae 3b 1f a4 c3 ef 5f b7   ......y1.;...._.
+0010 - 67 4e 80 77 93 7d df d7-9c 0a 93                  gN.w.}.....
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 000a], EncryptedExtensions
+    08 00 00 06 00 04 00 00 00 00
+read from 0x600003b87c80 [0x12d029803] (5 bytes => 5 (0x5))
+0000 - 17 03 03 0a 51                                    ....Q
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 0a 51
+read from 0x600003b87c80 [0x12d029808] (2641 bytes => 2641 (0xA51))
+0000 - 68 4d 69 d0 1c 3c 86 7f-8f ba cc 58 fc 67 b2 c1   hMi..<.....X.g..
+0010 - 8f 65 ae de 45 32 6e 6c-31 a1 df 59 41 e5 7a d4   .e..E2nl1..YA.z.
+0020 - ba fd f8 59 ce 6e 6e ed-84 20 96 41 1b 34 39 f4   ...Y.nn.. .A.49.
+0030 - 0c f5 49 b6 2d f3 70 8d-27 4d b9 b4 d1 46 3e 90   ..I.-.p.'M...F>.
+0040 - 87 90 c8 9e ac 2e 09 14-e4 13 18 65 2e 23 4f 03   ...........e.#O.
+0050 - b9 34 89 81 a2 98 8b bf-7f 68 6f db 4b 94 75 ff   .4.......ho.K.u.
+0060 - 8a f2 30 27 f6 4d 6a 16-0b 68 a3 3b 33 fd fd 03   ..0'.Mj..h.;3...
+0070 - b0 82 bf 63 ef 3a 75 34-91 b0 d8 d5 7c 89 c9 ad   ...c.:u4....|...
+0080 - 5b 85 a8 c4 4a ae 33 bb-94 5e 3b dd 72 f4 51 66   [...J.3..^;.r.Qf
+0090 - 97 53 24 8e 26 6a 5f 3e-99 90 1e be dc 3c 1c 2a   .S$.&j_>.....<.*
+00a0 - 00 2c c0 5a ac d6 d1 bd-5b d6 54 73 21 b6 b4 7b   .,.Z....[.Ts!..{
+00b0 - 2b b2 de 67 c8 00 cd ce-ee 75 1a e1 61 87 e4 12   +..g.....u..a...
+00c0 - 82 2f f5 aa 2d 74 b5 f1-12 f5 ce 77 1c 7a 37 f7   ./..-t.....w.z7.
+00d0 - 1a 43 82 59 e4 1c 4f 44-09 1f 23 e4 d7 b3 e8 40   .C.Y..OD..#....@
+00e0 - fe 96 b5 5e 80 c0 f5 cc-bf ca a0 58 7c 9a db 36   ...^.......X|..6
+00f0 - 91 d4 42 b6 c9 6c a9 b9-ff 16 a4 ed 51 03 16 c5   ..B..l......Q...
+0100 - ff a4 4f b3 54 e6 12 6d-23 77 11 6e 0c da 4c 24   ..O.T..m#w.n..L$
+0110 - 3b 84 8a e4 ef 2a d7 b4-94 5a fa 57 ac 30 e4 22   ;....*...Z.W.0."
+0120 - f7 b0 7c b0 73 b9 6b cc-96 70 ab db de d7 c7 18   ..|.s.k..p......
+0130 - b3 80 ef 7a 6b d5 97 a2-30 06 9e 33 19 f5 9d b7   ...zk...0..3....
+0140 - d7 95 ea cb dd b1 2e 2d-a4 53 21 a0 94 c4 74 83   .......-.S!...t.
+0150 - 9f af dd e9 ef b3 c7 01-ca a1 cf ed 57 9c 5c 7f   ............W.\.
+0160 - 23 86 93 c4 d0 b7 e8 a7-79 cf 90 b2 67 d0 2f 16   #.......y...g./.
+0170 - c4 61 87 52 46 dc 68 51-40 ce e4 b0 b5 84 df 49   .a.RF.hQ@......I
+0180 - 62 96 4f ce bf bc 6b 8f-74 67 81 ae ad ca 7c 27   b.O...k.tg....|'
+0190 - 47 dc e9 ff 32 fe 20 64-f0 6f e5 cc 8a ed 25 d5   G...2. d.o....%.
+01a0 - 81 25 03 5a b7 61 d9 c6-61 c2 42 05 ac 3c e4 4a   .%.Z.a..a.B..<.J
+01b0 - d2 12 24 f4 a1 4b 1f d6-a9 74 6d 9e 8f 6e 6e 1e   ..$..K...tm..nn.
+01c0 - 06 67 62 f9 c0 58 fb f4-6d 3d 30 e2 5d de 6c 4a   .gb..X..m=0.].lJ
+01d0 - 4a 08 b2 89 e3 41 69 f1-14 91 e1 60 16 51 6f ed   J....Ai....`.Qo.
+01e0 - a6 93 75 54 d6 55 e1 a1-b6 45 36 18 35 92 ad 6e   ..uT.U...E6.5..n
+01f0 - 45 32 ab 7a 5f da 5e 60-01 77 2a ba 32 af 90 fc   E2.z_.^`.w*.2...
+0200 - e3 f2 ff 3e 62 0f 61 fb-8c f8 ad ea 35 8c 2a f6   ...>b.a.....5.*.
+0210 - 6e bd a7 eb a4 14 cd 5a-f3 e9 07 4e 04 0f 21 b5   n......Z...N..!.
+0220 - 19 4b 42 4d 95 77 a0 3d-e6 10 12 7f ff 8d be 4d   .KBM.w.=.......M
+0230 - 64 38 38 5f d4 22 7c c7-f6 20 ee f9 3b 85 5d 0b   d88_."|.. ..;.].
+0240 - e8 77 2c ba 8e ec a3 96-19 11 f4 8a a4 21 37 c7   .w,..........!7.
+0250 - 8e d0 e9 fc 94 58 7f 46-58 be eb 71 bf 5f fa e2   .....X.FX..q._..
+0260 - 73 2b de 2a 68 b6 a9 af-69 13 40 3a 58 9e 57 b9   s+.*h...i.@:X.W.
+0270 - 26 dc bd 74 15 f4 44 fa-6d 92 84 19 2f 68 14 8e   &..t..D.m.../h..
+0280 - c6 eb 23 d2 c8 9e 56 d5-a9 6f f3 85 fa 57 9f 06   ..#...V..o...W..
+0290 - 61 ac 6c ae 18 41 e6 70-70 35 9b 84 e9 c2 3b 69   a.l..A.pp5....;i
+02a0 - 8f e3 4c 1a 90 9e a8 e9-89 09 85 5a 55 ea 17 02   ..L........ZU...
+02b0 - 20 b9 e4 cd 42 d7 75 3e-79 ec 37 af 73 33 14 8e    ...B.u>y.7.s3..
+02c0 - 5c eb 00 37 7d 05 24 30-12 24 36 4a 12 50 51 5f   \..7}.$0.$6J.PQ_
+02d0 - 30 9c 70 47 b9 ce 16 46-df 52 2b d1 b0 22 e8 41   0.pG...F.R+..".A
+02e0 - d6 d8 16 70 0a 5c fa ed-d8 0d f3 51 24 5c 5c 6b   ...p.\.....Q$\\k
+02f0 - 19 aa c1 8b 8b ce 7c 39-c2 c7 18 1a 83 82 47 22   ......|9......G"
+0300 - 3c fb eb 65 f0 b7 79 46-72 fb bf bc e1 26 67 5b   <..e..yFr....&g[
+0310 - 83 86 07 91 a7 81 e6 92-a9 f8 19 85 8b 64 42 48   .............dBH
+0320 - 62 4f 3e e2 9d 8a 3d 61-65 15 73 cd 56 32 b4 35   bO>...=ae.s.V2.5
+0330 - 10 99 39 f9 eb 3b b5 39-a1 5b 2c 18 28 cc 32 2f   ..9..;.9.[,.(.2/
+0340 - ca c6 ef a6 fe 51 c5 5a-28 31 71 ed 46 09 e4 8f   .....Q.Z(1q.F...
+0350 - 1e fb bd 46 7d 3e ec a7-f4 a9 8e e2 e4 df 54 58   ...F}>........TX
+0360 - 1f d9 98 c9 53 50 14 8d-2f 9a ae 79 69 aa 1b 9c   ....SP../..yi...
+0370 - bd 73 0e 5f 54 b4 f6 64-66 07 53 38 e3 35 ba cd   .s._T..df.S8.5..
+0380 - f3 c3 91 ec 31 c1 da 22-3d 76 4a db 2d f9 bf 27   ....1.."=vJ.-..'
+0390 - 7b 56 76 ec 5a 9b 65 d5-0c bc 94 0e 06 48 30 38   {Vv.Z.e......H08
+03a0 - 89 0d 3f 1d 25 01 8d 53-17 97 b5 b4 b3 3a ab 61   ..?.%..S.....:.a
+03b0 - fb 56 c0 3d e1 6e 38 cc-ef 74 c4 41 f7 80 be 39   .V.=.n8..t.A...9
+03c0 - df 4d 66 a6 a3 1e 23 89-b9 1e d9 5c 28 ff 76 18   .Mf...#....\(.v.
+03d0 - 7e 3d fb c1 c5 08 d7 54-9f f4 b9 26 c0 96 09 bd   ~=.....T...&....
+03e0 - 71 f5 af c1 11 4f 16 c0-74 72 bd ae d0 1f 5d ba   q....O..tr....].
+03f0 - 3f 99 49 86 c0 06 d5 5c-0c 8c 0f a9 3e 3f 43 cb   ?.I....\....>?C.
+0400 - 99 6c 6c 8e f9 91 d1 d6-5a 6f 73 84 43 c0 89 b0   .ll.....Zos.C...
+0410 - cf 2d b3 32 21 c7 59 75-3d d4 98 c7 0e 03 e1 d4   .-.2!.Yu=.......
+0420 - a0 02 7d c1 98 0b 2c fc-5e db c9 34 72 fb 75 2e   ..}...,.^..4r.u.
+0430 - c3 f3 a6 8e 52 74 23 bb-0e 1b 0e 1f 2f 43 99 a6   ....Rt#...../C..
+0440 - f4 69 5c 2c 59 a4 5f cc-01 1a 6a ff 5b c3 3e a4   .i\,Y._...j.[.>.
+0450 - 54 34 a0 41 5b 1d e7 7b-74 c2 d5 f3 df 94 1d 1c   T4.A[..{t.......
+0460 - 31 85 85 f2 bb 4b 08 6a-dd 4d a5 a5 74 dd 01 98   1....K.j.M..t...
+0470 - 63 0c 01 8a d3 37 46 cc-ed d4 dc 4a 1a 72 16 fa   c....7F....J.r..
+0480 - 7b 11 38 e8 22 04 0c 97-56 de 94 d7 1d 49 6a 54   {.8."...V....IjT
+0490 - 6a 2f 29 66 f5 bf 43 43-d0 c9 b2 9e 78 b9 a1 90   j/)f..CC....x...
+04a0 - 8c 2c 5d 91 82 48 32 31-f8 a2 5f 24 ef 82 94 07   .,]..H21.._$....
+04b0 - bc d3 b1 95 fc 4f 8c a9-88 c7 e0 f5 ed 07 63 1f   .....O........c.
+04c0 - 99 5b 45 ef 3b 6c 5e 86-8c 29 4f b4 4c 98 d5 4a   .[E.;l^..)O.L..J
+04d0 - bf b1 d1 a3 41 59 47 88-06 d0 71 c9 7e 95 72 fd   ....AYG...q.~.r.
+04e0 - c3 ce c1 60 cc 1f 3c 18-a2 77 3e dc cd 31 78 59   ...`..<..w>..1xY
+04f0 - bb a5 33 73 20 de 6f e4-b9 df b9 ce 4d 62 1a 4c   ..3s .o.....Mb.L
+0500 - 36 09 b3 86 ef e6 76 a2-fe cd c4 de e8 4c 64 e3   6.....v......Ld.
+0510 - 07 48 11 ce 69 06 63 4d-ca 20 8c 4c 8e af c8 c4   .H..i.cM. .L....
+0520 - 55 20 02 45 f2 e8 df 82-c6 4a ab 6a 03 44 ea 44   U .E.....J.j.D.D
+0530 - 65 ee f1 5f 24 77 bc 12-91 90 b7 4b 1f 78 c5 f7   e.._$w.....K.x..
+0540 - 84 c0 bf 2b 0e 09 de af-e7 b2 a8 e0 a2 22 bf f5   ...+........."..
+0550 - fe f9 72 ea ac fb 2c bc-26 8f 4d 4a 30 47 b1 9c   ..r...,.&.MJ0G..
+0560 - c5 dd 7b b5 0d 81 c0 e1-8a 8d e3 a3 d2 1d af e3   ..{.............
+0570 - 17 b2 6e d8 cb 8e ca 4a-9a a1 26 8d 3c 2b 2b 4d   ..n....J..&.<++M
+0580 - b8 c9 6a f7 8f 6e 94 a5-da de 61 7c 53 7c 10 04   ..j..n....a|S|..
+0590 - 10 e6 fc c8 84 27 1a 14-09 e7 0e ba d9 11 3f 5a   .....'........?Z
+05a0 - c7 34 99 6b 87 98 db 50-1b da 9f 30 ef 2e 40 e3   .4.k...P...0..@.
+05b0 - 9a 74 67 2c 03 d7 0f 92-b0 ff 37 d5 d7 bb 07 3a   .tg,......7....:
+05c0 - 82 00 72 94 29 2b a2 b1-bb 15 df 5b e6 36 00 a7   ..r.)+.....[.6..
+05d0 - 03 27 7b 17 7e 9a 7e 49-ef d7 7e da 58 0e 15 e2   .'{.~.~I..~.X...
+05e0 - 1b 9d 83 9d 2b eb 30 e5-39 4f 99 f4 fe 33 13 32   ....+.0.9O...3.2
+05f0 - cc ff 5c a7 b1 97 43 d1-7c 0d 63 90 cb 44 d4 7f   ..\...C.|.c..D..
+0600 - f0 fb fc f8 1e c6 70 ee-21 01 d2 b9 de c2 37 36   ......p.!.....76
+0610 - 7f 4e d8 3a 5a a6 cb 7a-11 0b 37 52 56 97 6c 18   .N.:Z..z..7RV.l.
+0620 - d5 be b0 8d 91 22 47 4e-c7 ec b6 12 ce 78 a4 fa   ....."GN.....x..
+0630 - 13 1f 3f 03 cb b4 12 c5-38 e8 00 e0 27 d9 22 e3   ..?.....8...'.".
+0640 - d7 81 db 75 e3 07 c6 f7-b9 48 e2 2e 0d ec 58 96   ...u.....H....X.
+0650 - 8c 9c 5b 0f 22 1f 03 3c-55 6d 55 20 77 44 9b 33   ..[."..<UmU wD.3
+0660 - f1 de e2 0a 08 eb 01 31-47 8d 6b 8e c4 00 ed de   .......1G.k.....
+0670 - c8 ee 3d 5d 70 14 96 59-55 74 7f 23 2e b4 c9 c5   ..=]p..YUt.#....
+0680 - 30 75 08 38 b0 19 67 38-d6 01 60 71 0e 31 2f 45   0u.8..g8..`q.1/E
+0690 - 75 2c bf 73 ab 26 78 40-16 f0 25 b1 b3 c6 2a 73   u,.s.&x@..%...*s
+06a0 - 40 d6 37 30 2f 6c c0 06-ee e0 ac 9f 93 8c 8c 45   @.70/l.........E
+06b0 - 4a 00 a4 7e 02 06 a1 05-b4 57 ad 79 68 a4 68 7c   J..~.....W.yh.h|
+06c0 - 0a 38 05 4d fe 43 ee f8-b7 2a 26 d9 b4 e5 21 4b   .8.M.C...*&...!K
+06d0 - 3c 74 a1 93 3f 02 61 d4-65 c3 52 64 2c dc b7 5b   <t..?.a.e.Rd,..[
+06e0 - b1 f7 47 be 1e 13 11 07-90 8d 88 d6 e0 60 57 6e   ..G..........`Wn
+06f0 - 55 96 91 2c 16 fe ae 5e-3a aa 06 7a 53 f4 c5 f7   U..,...^:..zS...
+0700 - 4f 49 fc 38 68 fa de 97-b7 a5 a7 bc 72 d8 b1 77   OI.8h.......r..w
+0710 - a0 45 6f 13 06 47 ab 56-ca cc 31 06 65 0e 2d ea   .Eo..G.V..1.e.-.
+0720 - 2a 5e 46 35 f8 c0 f8 0d-e4 9b 31 58 98 9e 64 da   *^F5......1X..d.
+0730 - 82 4b cb 9c 3c 00 5e 4a-48 4c 36 3b cd ba 8c 03   .K..<.^JHL6;....
+0740 - 61 66 3c 5b 0b 09 6f 23-a7 98 a6 1d 0e 1b 27 3e   af<[..o#......'>
+0750 - bd d9 0f 13 ed 2a da 9f-d4 04 81 e5 e2 b0 85 22   .....*........."
+0760 - 85 00 73 70 d8 2a e4 41-38 00 0a c3 91 86 d8 12   ..sp.*.A8.......
+0770 - 31 45 9b 46 e7 24 6d 6d-64 39 d9 36 58 b8 15 67   1E.F.$mmd9.6X..g
+0780 - 6f 7c 8e b4 39 ac 89 0c-4f 28 fb 6a f7 d9 47 47   o|..9...O(.j..GG
+0790 - 93 81 18 25 15 0e 0e 00-4d 10 c9 b4 25 24 50 a5   ...%....M...%$P.
+07a0 - ee d2 0d fc 81 7d ba 0d-fd 39 31 a2 3e 98 4e 6f   .....}...91.>.No
+07b0 - 50 a5 ae ae 7c 8a bc f6-0d 98 d1 31 ff 22 47 f1   P...|......1."G.
+07c0 - 16 3b 77 cb 37 55 10 a7-25 6f e1 23 c7 d8 97 99   .;w.7U..%o.#....
+07d0 - 01 a0 b2 f1 7f b5 ba ab-32 f9 77 06 68 aa bc f0   ........2.w.h...
+07e0 - 60 58 d4 89 40 a1 ff 34-89 1f c9 6a 82 0d e7 2a   `X..@..4...j...*
+07f0 - c6 a8 22 f4 6b ab 0f 8a-19 6c df a3 1a 0e 9c a2   ..".k....l......
+0800 - 59 45 be 0a b1 c3 cf 43-df 12 bc 91 30 d8 5d 72   YE.....C....0.]r
+0810 - f2 ea dc 9c 6f 1b e3 bc-e3 8f d6 12 a4 4b 60 72   ....o........K`r
+0820 - f0 ef 50 fa 8f 00 c8 17-d9 3b 59 63 65 10 d3 64   ..P......;Yce..d
+0830 - 79 bc 27 1e fd aa 05 fb-33 95 38 f2 ef df ac f6   y.'.....3.8.....
+0840 - 3d 79 30 ee 3c 70 c9 19-8c 3d 3d df e6 de 0e fa   =y0.<p...==.....
+0850 - 70 1b 49 b2 3b 83 0d a4-3d 00 18 e5 a0 c1 2f 75   p.I.;...=...../u
+0860 - e2 4c a6 1e ec 81 9c 18-65 4f 8f b1 40 9c 8e 78   .L......eO..@..x
+0870 - fc 83 43 5a 43 02 df 86-2e cf c3 84 38 67 10 5d   ..CZC.......8g.]
+0880 - 27 2f 5b bd ae 08 0d 76-b7 f6 9e 05 c1 3e 0e 2c   '/[....v.....>.,
+0890 - 1f ec 9f 4e e7 42 65 33-5e d3 d9 a7 cd e5 be 84   ...N.Be3^.......
+08a0 - 12 86 8f 9f 18 3d 5d c0-82 f0 3c a8 32 2d 4e 9d   .....=]...<.2-N.
+08b0 - e5 a8 7f a9 90 49 8c eb-d4 68 7b f7 1a 1f 37 c7   .....I...h{...7.
+08c0 - 25 30 b5 a7 9d 88 b1 e9-c5 5a 8b dd a4 1c b9 d7   %0.......Z......
+08d0 - cf 5c 89 f3 3b 73 8f 8b-84 b3 8e 8d 07 00 82 32   .\..;s.........2
+08e0 - 29 6d 85 35 b1 e4 a3 6f-92 9a 9e 91 16 86 59 06   )m.5...o......Y.
+08f0 - 48 70 dd 38 4b 3c e5 65-ed 92 15 a8 97 b8 e4 ba   Hp.8K<.e........
+0900 - a6 ae 9c da 70 1d 21 e4-06 6a 8d d7 dd bd 88 01   ....p.!..j......
+0910 - ce b9 2f d0 e4 0f 19 54-4f 11 97 65 01 41 21 22   ../....TO..e.A!"
+0920 - 00 80 bf a3 04 a9 c2 6f-39 85 c1 ff 0b 4f 69 c3   .......o9....Oi.
+0930 - bc 61 c2 f7 8a 96 13 44-69 25 44 d5 6f 2a a3 db   .a.....Di%D.o*..
+0940 - 89 3e 42 28 53 6c 79 ed-8c 8d 1e 73 4d 8e a0 8d   .>B(Sly....sM...
+0950 - c0 9a df 76 42 5a f3 d8-34 4f d9 b1 cc 91 dd 74   ...vBZ..4O.....t
+0960 - 30 e5 f4 11 36 2c b1 e4-4d a2 9f 90 f7 8e 73 fb   0...6,..M.....s.
+0970 - 3a e1 ee 75 70 0f fb db-60 b7 f7 c5 14 45 2b f6   :..up...`....E+.
+0980 - af f5 2f f5 83 d2 87 75-fe ac 01 61 51 53 30 8a   ../....u...aQS0.
+0990 - bc 37 6a 7f d5 dc 53 4e-28 cb 41 75 f9 2b 50 f9   .7j...SN(.Au.+P.
+09a0 - be bf 5b 73 82 db 46 9e-ab 04 3c 09 d6 e1 b0 e4   ..[s..F...<.....
+09b0 - 58 d8 f5 93 3e d8 3b 3c-66 5a 04 63 bd bb 14 5e   X...>.;<fZ.c...^
+09c0 - 20 b8 b8 f6 ce 12 bc 27-52 e1 9a 8c bf 3c ff e3    ......'R....<..
+09d0 - 61 93 c1 1a d0 f6 3c 4c-f8 de 72 35 ed 8e 88 33   a.....<L..r5...3
+09e0 - 7f ec 45 e6 19 e4 1a a5-13 e0 f5 84 38 21 10 e9   ..E.........8!..
+09f0 - 8f 35 06 fa fd 48 75 64-a9 09 3e 75 24 46 b5 95   .5...Hud..>u$F..
+0a00 - 7e 48 79 97 7b 0d 24 a5-38 b8 9d fc f6 d0 05 84   ~Hy.{.$.8.......
+0a10 - c9 50 a4 cf 02 57 23 19-4e 70 32 52 0a de 5a bf   .P...W#.Np2R..Z.
+0a20 - f0 8d 4a 7b b4 23 5e 73-78 cb 7b 14 ca 12 fb db   ..J{.#^sx.{.....
+0a30 - df 5f e0 0e 21 70 df da-9a b3 5e 44 3f 41 b9 e4   ._..!p....^D?A..
+0a40 - 08 78 76 ad 67 43 cd f7-1e 3c a0 8b 1c 7d f4 c3   .xv.gC...<...}..
+0a50 - 6f                                                o
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 0a40], Certificate
+    0b 00 0a 3c 00 00 0a 38 00 03 78 30 82 03 74 30
+    82 02 5c a0 03 02 01 02 02 14 53 80 b5 8b 59 74
+    5c 39 83 c6 34 7b f3 bc fb d6 d6 45 e9 dc 30 0d
+    06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 38 31
+    1a 30 18 06 03 55 04 03 0c 11 49 6e 74 65 72 6d
+    65 64 69 61 74 65 20 43 41 20 32 31 1a 30 18 06
+    03 55 04 0a 0c 11 54 65 73 74 20 4f 72 67 61 6e
+    69 7a 61 74 69 6f 6e 30 1e 17 0d 32 34 31 32 30
+    36 31 37 31 30 35 33 5a 17 0d 32 35 31 32 30 36
+    31 37 31 30 35 33 5a 30 37 31 19 30 17 06 03 55
+    04 03 0c 10 74 65 73 74 2e 65 78 61 6d 70 6c 65
+    2e 63 6f 6d 31 1a 30 18 06 03 55 04 0a 0c 11 54
+    65 73 74 20 4f 72 67 61 6e 69 7a 61 74 69 6f 6e
+    30 82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01
+    01 05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01
+    00 dc e9 91 1a 8c 1a 37 0a 12 4e b3 50 3f 1a 21
+    fe 60 90 76 5a 2c 1c 2b 69 49 fa 09 14 8b 93 ca
+    be 5c b5 45 49 8d c3 c0 fb ea 22 7a 74 03 28 62
+    2e 6f 74 6a 3a d4 b4 23 23 c1 73 f2 f9 e0 ff a2
+    57 ee 6d c7 87 48 06 d4 65 34 47 f1 c5 d4 95 8c
+    35 60 e7 07 09 c1 c2 e1 68 0a 66 c9 0a 50 fe db
+    d0 b5 b6 46 d2 9d af 7e 70 66 4c e5 1c 00 19 ae
+    47 57 4a d0 b8 51 a4 c1 25 dc 12 39 2d 0a 82 ad
+    25 2d 15 67 a4 87 10 1d 08 39 dd 3c 96 7e e9 fd
+    58 f6 28 62 1a d3 e4 f7 6d f1 2f 45 48 eb 96 4c
+    37 e7 6e 1d 40 2b f0 51 56 52 12 11 67 de 39 5b
+    a6 a7 86 5f 63 b7 90 a2 c2 f2 e4 ba 02 57 bc d2
+    28 52 40 9e 2d f8 75 23 03 46 ed b2 dd ba 39 9e
+    c4 e9 e7 bb a1 ce 02 3c 03 52 ba 32 12 2d 49 02
+    a1 fb c8 c4 76 e8 6c 90 30 c8 77 5b 1d 1a f6 13
+    70 e2 05 2d 94 7e 52 f5 24 3c 5e 13 bc 96 58 01
+    49 02 03 01 00 01 a3 77 30 75 30 09 06 03 55 1d
+    13 04 02 30 00 30 0b 06 03 55 1d 0f 04 04 03 02
+    05 a0 30 1b 06 03 55 1d 11 04 14 30 12 82 10 74
+    65 73 74 2e 65 78 61 6d 70 6c 65 2e 63 6f 6d 30
+    1d 06 03 55 1d 0e 04 16 04 14 27 d9 f6 1b 0d b9
+    fe 7d 98 3d cc 0d 16 1e 59 1c 86 d8 c7 bc 30 1f
+    06 03 55 1d 23 04 18 30 16 80 14 a0 51 0f 3e 67
+    ab 11 38 ed f0 cd 19 c4 68 f9 a5 b5 df 61 c0 30
+    0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 03 82
+    01 01 00 b6 fa c5 8a e2 32 07 bf bb 23 60 d5 d1
+    da cd 8b e3 2f 6d be f4 c7 94 0f df af c8 e4 3f
+    2d bd 59 49 e9 f5 cb 2a 29 b2 96 5d bc 7f d3 1a
+    20 bd 79 ce 73 52 6c 8c 81 27 bf 9f dd 50 5a 99
+    c9 78 bd b0 3b 49 6f 61 38 fb c3 77 46 65 68 f3
+    7c 2a 05 fc 07 2d f7 2a b2 cf 19 a8 32 31 95 13
+    7b 67 b5 f0 89 e6 f1 ce cc 7e 74 49 77 b6 2e 5b
+    d4 2f 63 4c e7 86 2e c7 ac 22 2f 6f 8b 20 58 7b
+    c9 82 f6 85 3d 2d 30 f8 2b 4a 3a a4 e2 98 79 86
+    ad 08 89 e4 b4 fb 54 80 77 07 f8 e4 53 57 1d 1a
+    97 d1 e1 d3 09 df ee 97 43 91 b4 a7 41 29 55 f1
+    7b f9 1e 3f ea 83 c6 f4 43 89 f5 f3 23 0d 22 76
+    6b 53 e4 7b 77 bd d6 ca 2f 7a a5 27 af dc 1e bb
+    12 2b fc 87 f9 45 bc c0 32 c3 f9 9e d8 ec 79 1c
+    5a d7 4f af e0 a3 b6 b7 92 9f 64 8f 46 75 ea 18
+    2f ce d0 ad 70 a6 cf 48 fd 9b 81 89 5a a5 cd b3
+    53 35 92 00 00 00 03 5c 30 82 03 58 30 82 02 40
+    a0 03 02 01 02 02 13 1a 32 db a3 f0 f5 2c e5 10
+    5d 57 5a 77 c5 91 25 8f fe fd 30 0d 06 09 2a 86
+    48 86 f7 0d 01 01 0b 05 00 30 30 31 12 30 10 06
+    03 55 04 03 0c 09 52 6f 6f 74 20 43 41 20 32 31
+    1a 30 18 06 03 55 04 0a 0c 11 54 65 73 74 20 4f
+    72 67 61 6e 69 7a 61 74 69 6f 6e 30 1e 17 0d 32
+    34 31 32 30 36 31 37 30 30 32 36 5a 17 0d 33 34
+    31 32 30 34 31 37 30 30 32 36 5a 30 38 31 1a 30
+    18 06 03 55 04 03 0c 11 49 6e 74 65 72 6d 65 64
+    69 61 74 65 20 43 41 20 32 31 1a 30 18 06 03 55
+    04 0a 0c 11 54 65 73 74 20 4f 72 67 61 6e 69 7a
+    61 74 69 6f 6e 30 82 01 22 30 0d 06 09 2a 86 48
+    86 f7 0d 01 01 01 05 00 03 82 01 0f 00 30 82 01
+    0a 02 82 01 01 00 d7 ba ff a4 ec e7 c7 6d 7f b7
+    b2 e5 c4 b3 17 e9 9d 7b 1a 65 ff 7c a3 a1 be 63
+    ac ce 27 52 45 43 b4 04 7d 33 c3 78 a5 f6 f8 f1
+    b8 0d ba d8 1d 25 20 ef e0 68 a5 cb 20 69 56 54
+    1d 94 6c 0c a7 7c a0 4e 51 ee ac 86 b2 ae d2 3c
+    41 71 3f a0 4a 5c c0 d0 9a 26 87 0f 4e ce 8e a5
+    1b 56 c7 51 79 d4 df 93 c8 0a 02 17 b0 63 b5 a5
+    a1 60 54 bb 04 d0 f8 d6 03 d3 ad f3 00 40 07 06
+    35 e4 bc 31 18 02 04 ac 97 d6 05 90 3d 44 f3 a3
+    57 0f 32 a5 5f 82 ff 8a f6 3d 20 fc 71 6a db b6
+    8f 1c 74 80 8f 3a 6f d8 b1 93 b2 55 34 8c 5e e7
+    33 ef 68 d4 f7 a7 70 0a 69 c5 c2 cb 4c ea 8b 02
+    fb ca 0c 92 62 31 a5 e0 b1 30 8f b2 e2 e5 96 d9
+    80 5e 66 25 3a 66 a1 c6 17 de 64 e4 c1 a7 da d2
+    a2 67 9e c8 8a 3f 2b dd 60 3e 12 2c 71 68 35 4f
+    e9 dd 94 ee 60 24 05 3c 5c 85 16 7b ef e3 82 1c
+    7d a9 e5 12 ed 05 02 03 01 00 01 a3 63 30 61 30
+    0f 06 03 55 1d 13 01 01 ff 04 05 30 03 01 01 ff
+    30 0e 06 03 55 1d 0f 01 01 ff 04 04 03 02 01 06
+    30 1d 06 03 55 1d 0e 04 16 04 14 a0 51 0f 3e 67
+    ab 11 38 ed f0 cd 19 c4 68 f9 a5 b5 df 61 c0 30
+    1f 06 03 55 1d 23 04 18 30 16 80 14 94 c3 fe 1f
+    91 3d 23 82 e2 a8 da c8 1b dd 89 07 7b 28 b8 4a
+    30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 03
+    82 01 01 00 c5 8a 9d 57 e0 d3 b0 15 a6 54 78 c1
+    30 39 91 cd ab 3c 10 45 df a8 82 cf f1 19 79 3a
+    28 c9 31 04 93 bd 38 46 9d 6a 6b 68 db a8 fa cd
+    64 5e c6 c0 6f 00 a7 e0 b9 13 2f 15 03 ad 8a 72
+    fa 06 74 e2 50 66 f2 ee 73 6f 66 e4 38 47 3e d8
+    27 9e c8 e0 0b 87 77 07 ec ea da f3 2d ab be 35
+    68 7c 83 a3 3b 66 40 5e 18 fd 6f 4e d6 08 4a dd
+    36 fe 4c e2 19 25 ac e5 84 4b 24 ca 38 f6 a6 c6
+    ee 31 9e d0 18 79 ff 2a da ca 6d 7f e2 f3 f1 2f
+    76 b2 1c c9 2b b3 51 40 63 dc 70 4d 1b a6 fb fd
+    ae ce aa cb eb 01 30 61 55 c8 83 2f 9f 11 5d 73
+    76 11 90 1e 85 4e 95 9d bd fd 4b 7f 69 a4 c9 b4
+    1c 88 f0 b7 fa fb 4e 52 d1 3f 7d 72 4c c6 80 44
+    89 da a1 c5 49 55 8b e2 4e bf d1 20 0f 32 fd ed
+    73 a7 f8 73 c2 7f 9e d5 eb ea a3 be b0 82 38 f5
+    d9 ef ad 7b 10 74 9c c9 4b 26 93 82 f4 f6 be 88
+    91 70 fd cd 00 00 00 03 55 30 82 03 51 30 82 02
+    39 a0 03 02 01 02 02 14 66 18 4f 9f 4d ff 5d 66
+    0d b4 cd ed 62 b9 1a 68 2b 32 04 55 30 0d 06 09
+    2a 86 48 86 f7 0d 01 01 0b 05 00 30 30 31 12 30
+    10 06 03 55 04 03 0c 09 52 6f 6f 74 20 43 41 20
+    31 31 1a 30 18 06 03 55 04 0a 0c 11 54 65 73 74
+    20 4f 72 67 61 6e 69 7a 61 74 69 6f 6e 30 1e 17
+    0d 32 34 31 32 30 36 31 37 30 30 31 36 5a 17 0d
+    33 34 31 32 30 34 31 37 30 30 31 36 5a 30 30 31
+    12 30 10 06 03 55 04 03 0c 09 52 6f 6f 74 20 43
+    41 20 32 31 1a 30 18 06 03 55 04 0a 0c 11 54 65
+    73 74 20 4f 72 67 61 6e 69 7a 61 74 69 6f 6e 30
+    82 01 22 30 0d 06 09 2a 86 48 86 f7 0d 01 01 01
+    05 00 03 82 01 0f 00 30 82 01 0a 02 82 01 01 00
+    dc 38 2b 13 fb bb 39 ae 7e a5 19 dd 5d 22 48 71
+    3e 79 47 d7 c5 5a bc 4e af 47 40 44 94 ad bd bb
+    f9 29 a5 b2 0c a5 04 70 41 d4 78 8f 10 44 a6 8e
+    cc b9 98 27 13 ba 15 27 bb 9b e7 8c 6a 60 f2 49
+    b8 37 79 44 24 a7 3a 27 ed b2 fc de 91 40 68 36
+    c4 85 a3 0c b3 bd 38 a0 bf b0 f0 29 f9 46 7e 32
+    da f0 f5 f6 ad c7 0d bb 8f e9 27 f6 c3 0c 83 05
+    c0 a8 35 61 21 6a 8b 60 07 cc 15 d4 bb d9 15 f6
+    2f 94 d0 4e 7d db 28 b4 8a 4a ca 10 3d 46 2f e7
+    bf e2 6f 8f 87 21 32 50 a2 db 60 30 0c aa 0b c6
+    e0 28 61 b2 a8 6c fe d4 25 2d f2 f9 96 26 17 fb
+    ed c7 08 54 09 59 d4 56 44 bd 7c be ee 2c c0 61
+    f1 1d 6e 71 12 df 38 bc e2 cd 03 d1 d2 9c 94 19
+    f6 9a 59 68 dd fc bb 02 c5 ce 53 ee a1 79 49 1b
+    f8 03 2a eb 41 6d 22 46 a0 7e e8 e4 40 7d e0 7f
+    0f 25 67 37 23 fa 21 ba 24 22 5b 1b 8a 73 e0 09
+    02 03 01 00 01 a3 63 30 61 30 0f 06 03 55 1d 13
+    01 01 ff 04 05 30 03 01 01 ff 30 0e 06 03 55 1d
+    0f 01 01 ff 04 04 03 02 01 06 30 1d 06 03 55 1d
+    0e 04 16 04 14 94 c3 fe 1f 91 3d 23 82 e2 a8 da
+    c8 1b dd 89 07 7b 28 b8 4a 30 1f 06 03 55 1d 23
+    04 18 30 16 80 14 e9 90 40 15 ce e9 73 0a fb ab
+    2a fe a0 19 fe 7b 57 74 1d 39 30 0d 06 09 2a 86
+    48 86 f7 0d 01 01 0b 05 00 03 82 01 01 00 10 1f
+    22 70 56 a8 75 1b be 18 a4 fa cf 6d 1d 27 fe 40
+    9b 40 b3 f6 46 7b 42 99 66 8d 05 69 c6 db 2f 8f
+    4b 3f 22 4e 97 4b 86 c9 5f 65 62 3e af ba 64 23
+    c6 b2 75 73 f1 8c 2e 20 bc 64 71 20 7e 14 d7 b9
+    ba 23 72 c8 97 a2 01 d1 ee 4f 63 f8 8b 0a 6d bb
+    96 c3 aa 27 17 17 ed c9 85 b0 f9 07 d9 59 fc 68
+    8d 84 aa 89 a8 d1 f3 a9 2b f3 ab a4 2a 17 57 65
+    36 77 c0 f7 fb d6 ff 6c 28 37 8a 38 c6 cb ae 84
+    be 81 00 04 d8 7f 5c 6c 7a 42 3f c3 75 f2 d2 2e
+    eb 67 b4 80 56 91 e3 ee ab 8d f4 f2 ad 19 a9 19
+    2f c3 d0 8c 75 a6 6f 6d e4 2b 7c c0 95 dc 9a d6
+    c4 9c 27 8a 68 26 32 7a b7 c9 df b8 9c ca 02 ac
+    1e 45 03 75 87 ae 48 3d ef 98 91 c9 86 91 53 dc
+    f9 4a 29 a9 29 90 7c 78 41 60 ae c6 28 39 2f fb
+    48 2a 69 79 c0 89 f7 9c f3 f9 ae 10 31 c6 ef 91
+    13 87 16 9a 0d fe 15 e0 4f 0f 7b 2b ea e8 00 00
+depth=2 CN=Root CA 2, O=Test Organization
+verify return:1
+depth=1 CN=Intermediate CA 2, O=Test Organization
+verify return:1
+depth=0 CN=test.example.com, O=Test Organization
+verify return:1
+read from 0x600003b87c80 [0x12d029803] (5 bytes => 5 (0x5))
+0000 - 17 03 03 01 19                                    .....
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 01 19
+read from 0x600003b87c80 [0x12d029808] (281 bytes => 281 (0x119))
+0000 - 89 20 f3 4c f4 8b d9 36-73 ae f4 cf 6a fb 15 67   . .L...6s...j..g
+0010 - 9d 18 f6 d6 ae 76 d3 79-8d e6 93 2b c7 df be 8e   .....v.y...+....
+0020 - bb d8 50 24 f7 19 bc 79-7b 02 8a 24 f0 90 57 a9   ..P$...y{..$..W.
+0030 - 51 51 ce e8 33 e8 e5 57-e8 5c 68 75 a8 f4 0f bd   QQ..3..W.\hu....
+0040 - fa c7 91 bd 91 c3 0f b6-ec 48 30 82 af 01 e4 ac   .........H0.....
+0050 - 88 f7 f9 fb 8d 78 af 92-a3 ab ea 12 78 9a 40 ae   .....x......x.@.
+0060 - 1f 2e 7f eb 67 3a 67 20-d7 03 26 37 85 c4 6c 57   ....g:g ..&7..lW
+0070 - a4 70 1b 90 2a 74 ac 7d-f1 e9 7b 0b 33 09 db 7b   .p..*t.}..{.3..{
+0080 - 31 2f ab af f9 16 e3 fa-73 23 3d f8 09 c0 0a 05   1/......s#=.....
+0090 - 2a b1 06 d6 f3 2c 2e 89-a6 18 9d 12 d6 64 58 81   *....,.......dX.
+00a0 - f8 11 de 0b 29 d6 86 37-ec a6 26 be ee 43 22 b9   ....)..7..&..C".
+00b0 - a4 82 29 33 77 5b 5f 50-21 07 4f 88 ea 12 11 c6   ..)3w[_P!.O.....
+00c0 - 7e 5f 62 f2 90 f8 56 89-e8 ca f8 ae 9f f4 41 39   ~_b...V.......A9
+00d0 - 0e d9 6b eb 2c bd 8a 22-9f ed 7a a2 a0 e8 75 8b   ..k.,.."..z...u.
+00e0 - a3 24 b7 6b eb 91 20 f3-36 d2 17 c1 d0 8e 97 33   .$.k.. .6......3
+00f0 - 95 33 d1 aa df 6c 3d 91-4d ac 70 11 6a fb 92 7f   .3...l=.M.p.j...
+0100 - 64 70 32 5b 88 73 f4 15-44 1e 5d b1 94 94 33 c3   dp2[.s..D.]...3.
+0110 - aa 8e 83 0c ee 41 40 3f-59                        .....A@?Y
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 0108], CertificateVerify
+    0f 00 01 04 08 04 01 00 54 74 f2 dc e3 e7 f7 f4
+    c8 4e 1c 05 58 af 6b 8d 49 1f 1c 38 6a c8 a9 46
+    c7 c0 c5 09 49 22 8f 1c 13 b1 9a e1 64 8d 06 fa
+    e4 13 0c d6 b6 db e1 93 06 50 02 4b ec e5 f3 3b
+    bf 72 91 ca b6 e2 7e e3 3c 66 2f b8 24 d5 e2 05
+    c1 80 68 57 56 4f cf 09 c3 54 cb c0 6f b5 4a 22
+    1d 74 cc 14 ae 5a f4 16 6a b3 f3 c0 2b 4f 67 1b
+    fa 88 62 26 1a a4 d3 a3 40 76 55 43 11 02 e3 61
+    34 8f d2 21 18 08 73 b2 b4 32 64 be 62 03 bb ae
+    eb 0d 7b d5 d2 7b 30 19 2a 06 fd f9 bd 13 40 02
+    62 8b 12 03 69 9e 46 b3 a3 d2 03 7e 7e 2b 3d 4e
+    f2 e0 6b 34 e1 2c 52 61 80 f1 20 4b 56 18 75 ae
+    03 f5 04 d5 c1 57 04 81 e5 f6 29 32 f5 9a 02 53
+    4d fc 3c 30 26 f3 14 9b a9 a6 cd 1f 03 22 6c 90
+    f6 0a a4 53 6b 26 5b ff a6 c8 56 19 97 bc d8 75
+    3c da d7 eb 40 3b c6 5d d1 d2 6d 2a 93 66 5b a4
+    72 89 82 5b 8e 90 28 a1
+read from 0x600003b87c80 [0x12d029803] (5 bytes => 5 (0x5))
+0000 - 17 03 03 00 45                                    ....E
+<<< TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 45
+read from 0x600003b87c80 [0x12d029808] (69 bytes => 69 (0x45))
+0000 - 3d 95 f8 b1 b0 15 01 68-12 04 98 f4 5a d1 7b de   =......h....Z.{.
+0010 - 82 a8 49 17 a2 3a 00 83-cb 9d df 65 ca bd aa c2   ..I..:.....e....
+0020 - 7b 21 55 93 62 05 d0 41-3d 81 2c 21 81 10 a8 75   {!U.b..A=.,!...u
+0030 - 8a 96 1a 9e a7 1b b7 f8-75 8f 5c 52 9b 12 60 68   ........u.\R..`h
+0040 - 5a cd 80 65 7b                                    Z..e{
+<<< TLS 1.3, InnerContent [length 0001]
+    16
+<<< TLS 1.3, Handshake [length 0034], Finished
+    14 00 00 30 9a 58 9c b0 21 ae 8f 11 ff cd 26 00
+    0e a3 ec 7c 92 12 2a 86 7f 27 4d b9 a2 f1 98 47
+    5e 98 c2 ea 90 88 0e da bf e0 9b b5 91 69 f0 f2
+    31 e0 35 71
+>>> TLS 1.2, RecordHeader [length 0005]
+    14 03 03 00 01
+>>> TLS 1.3, ChangeCipherSpec [length 0001]
+    01
+>>> TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 45
+>>> TLS 1.2, InnerContent [length 0001]
+    16
+>>> TLS 1.3, Handshake [length 0034], Finished
+    14 00 00 30 9b 0d 6e c0 a6 76 c6 35 16 f5 4d bd
+    db 8e eb 22 77 02 60 25 5f 4c b8 5b 10 0d ac 18
+    ca 2b ea 32 9f 04 fb a9 64 ec 3b 88 e5 5f d9 f9
+    ce 84 d2 52
+write to 0x600003b87c80 [0x12d023400] (80 bytes => 80 (0x50))
+0000 - 14 03 03 00 01 01 17 03-03 00 45 58 03 d0 1e 26   ..........EX...&
+0010 - 84 1a ec 7d f3 bd af 45-9e 7b 42 2e b5 a5 70 88   ...}...E.{B...p.
+0020 - 59 ee 48 86 91 1c c5 8f-5c db 25 d8 71 a8 6c 6e   Y.H.....\.%.q.ln
+0030 - 96 0d 18 b6 98 d0 b2 80-3d f1 92 b0 13 27 4b 14   ........=....'K.
+0040 - 3b 2f 99 f0 60 27 24 e2-7d 14 6e de be 1d e0 c5   ;/..`'$.}.n.....
+---
+Certificate chain
+ 0 s:CN=test.example.com, O=Test Organization
+   i:CN=Intermediate CA 2, O=Test Organization
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Dec  6 17:10:53 2024 GMT; NotAfter: Dec  6 17:10:53 2025 GMT
+-----BEGIN CERTIFICATE-----
+MIIDdDCCAlygAwIBAgIUU4C1i1l0XDmDxjR787z71tZF6dwwDQYJKoZIhvcNAQEL
+BQAwODEaMBgGA1UEAwwRSW50ZXJtZWRpYXRlIENBIDIxGjAYBgNVBAoMEVRlc3Qg
+T3JnYW5pemF0aW9uMB4XDTI0MTIwNjE3MTA1M1oXDTI1MTIwNjE3MTA1M1owNzEZ
+MBcGA1UEAwwQdGVzdC5leGFtcGxlLmNvbTEaMBgGA1UECgwRVGVzdCBPcmdhbml6
+YXRpb24wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDc6ZEajBo3ChJO
+s1A/GiH+YJB2WiwcK2lJ+gkUi5PKvly1RUmNw8D76iJ6dAMoYi5vdGo61LQjI8Fz
+8vng/6JX7m3Hh0gG1GU0R/HF1JWMNWDnBwnBwuFoCmbJClD+29C1tkbSna9+cGZM
+5RwAGa5HV0rQuFGkwSXcEjktCoKtJS0VZ6SHEB0IOd08ln7p/Vj2KGIa0+T3bfEv
+RUjrlkw3524dQCvwUVZSEhFn3jlbpqeGX2O3kKLC8uS6Ale80ihSQJ4t+HUjA0bt
+st26OZ7E6ee7oc4CPANSujISLUkCofvIxHbobJAwyHdbHRr2E3DiBS2UflL1JDxe
+E7yWWAFJAgMBAAGjdzB1MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgWgMBsGA1UdEQQU
+MBKCEHRlc3QuZXhhbXBsZS5jb20wHQYDVR0OBBYEFCfZ9hsNuf59mD3MDRYeWRyG
+2Me8MB8GA1UdIwQYMBaAFKBRDz5nqxE47fDNGcRo+aW132HAMA0GCSqGSIb3DQEB
+CwUAA4IBAQC2+sWK4jIHv7sjYNXR2s2L4y9tvvTHlA/fr8jkPy29WUnp9csqKbKW
+Xbx/0xogvXnOc1JsjIEnv5/dUFqZyXi9sDtJb2E4+8N3RmVo83wqBfwHLfcqss8Z
+qDIxlRN7Z7Xwiebxzsx+dEl3ti5b1C9jTOeGLsesIi9viyBYe8mC9oU9LTD4K0o6
+pOKYeYatCInktPtUgHcH+ORTVx0al9Hh0wnf7pdDkbSnQSlV8Xv5Hj/qg8b0Q4n1
+8yMNInZrU+R7d73Wyi96pSev3B67Eiv8h/lFvMAyw/me2Ox5HFrXT6/go7a3kp9k
+j0Z16hgvztCtcKbPSP2bgYlapc2zUzWS
+-----END CERTIFICATE-----
+ 1 s:CN=Intermediate CA 2, O=Test Organization
+   i:CN=Root CA 2, O=Test Organization
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Dec  6 17:00:26 2024 GMT; NotAfter: Dec  4 17:00:26 2034 GMT
+-----BEGIN CERTIFICATE-----
+MIIDWDCCAkCgAwIBAgITGjLbo/D1LOUQXVdad8WRJY/+/TANBgkqhkiG9w0BAQsF
+ADAwMRIwEAYDVQQDDAlSb290IENBIDIxGjAYBgNVBAoMEVRlc3QgT3JnYW5pemF0
+aW9uMB4XDTI0MTIwNjE3MDAyNloXDTM0MTIwNDE3MDAyNlowODEaMBgGA1UEAwwR
+SW50ZXJtZWRpYXRlIENBIDIxGjAYBgNVBAoMEVRlc3QgT3JnYW5pemF0aW9uMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA17r/pOznx21/t7LlxLMX6Z17
+GmX/fKOhvmOszidSRUO0BH0zw3il9vjxuA262B0lIO/gaKXLIGlWVB2UbAynfKBO
+Ue6shrKu0jxBcT+gSlzA0Jomhw9Ozo6lG1bHUXnU35PICgIXsGO1paFgVLsE0PjW
+A9Ot8wBABwY15LwxGAIErJfWBZA9RPOjVw8ypV+C/4r2PSD8cWrbto8cdICPOm/Y
+sZOyVTSMXucz72jU96dwCmnFwstM6osC+8oMkmIxpeCxMI+y4uWW2YBeZiU6ZqHG
+F95k5MGn2tKiZ57Iij8r3WA+EixxaDVP6d2U7mAkBTxchRZ77+OCHH2p5RLtBQID
+AQABo2MwYTAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4E
+FgQUoFEPPmerETjt8M0ZxGj5pbXfYcAwHwYDVR0jBBgwFoAUlMP+H5E9I4LiqNrI
+G92JB3souEowDQYJKoZIhvcNAQELBQADggEBAMWKnVfg07AVplR4wTA5kc2rPBBF
+36iCz/EZeTooyTEEk704Rp1qa2jbqPrNZF7GwG8Ap+C5Ey8VA62KcvoGdOJQZvLu
+c29m5DhHPtgnnsjgC4d3B+zq2vMtq741aHyDoztmQF4Y/W9O1ghK3Tb+TOIZJazl
+hEskyjj2psbuMZ7QGHn/KtrKbX/i8/EvdrIcySuzUUBj3HBNG6b7/a7OqsvrATBh
+VciDL58RXXN2EZAehU6Vnb39S39ppMm0HIjwt/r7TlLRP31yTMaARInaocVJVYvi
+Tr/RIA8y/e1zp/hzwn+e1evqo76wgjj12e+texB0nMlLJpOC9Pa+iJFw/c0=
+-----END CERTIFICATE-----
+ 2 s:CN=Root CA 2, O=Test Organization
+   i:CN=Root CA 1, O=Test Organization
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Dec  6 17:00:16 2024 GMT; NotAfter: Dec  4 17:00:16 2034 GMT
+-----BEGIN CERTIFICATE-----
+MIIDUTCCAjmgAwIBAgIUZhhPn03/XWYNtM3tYrkaaCsyBFUwDQYJKoZIhvcNAQEL
+BQAwMDESMBAGA1UEAwwJUm9vdCBDQSAxMRowGAYDVQQKDBFUZXN0IE9yZ2FuaXph
+dGlvbjAeFw0yNDEyMDYxNzAwMTZaFw0zNDEyMDQxNzAwMTZaMDAxEjAQBgNVBAMM
+CVJvb3QgQ0EgMjEaMBgGA1UECgwRVGVzdCBPcmdhbml6YXRpb24wggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDcOCsT+7s5rn6lGd1dIkhxPnlH18VavE6v
+R0BElK29u/kppbIMpQRwQdR4jxBEpo7MuZgnE7oVJ7ub54xqYPJJuDd5RCSnOift
+svzekUBoNsSFowyzvTigv7DwKflGfjLa8PX2rccNu4/pJ/bDDIMFwKg1YSFqi2AH
+zBXUu9kV9i+U0E592yi0ikrKED1GL+e/4m+PhyEyUKLbYDAMqgvG4Chhsqhs/tQl
+LfL5liYX++3HCFQJWdRWRL18vu4swGHxHW5xEt84vOLNA9HSnJQZ9ppZaN38uwLF
+zlPuoXlJG/gDKutBbSJGoH7o5EB94H8PJWc3I/ohuiQiWxuKc+AJAgMBAAGjYzBh
+MA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBSUw/4f
+kT0jguKo2sgb3YkHeyi4SjAfBgNVHSMEGDAWgBTpkEAVzulzCvurKv6gGf57V3Qd
+OTANBgkqhkiG9w0BAQsFAAOCAQEAEB8icFaodRu+GKT6z20dJ/5Am0Cz9kZ7Qplm
+jQVpxtsvj0s/Ik6XS4bJX2ViPq+6ZCPGsnVz8YwuILxkcSB+FNe5uiNyyJeiAdHu
+T2P4iwptu5bDqicXF+3JhbD5B9lZ/GiNhKqJqNHzqSvzq6QqF1dlNnfA9/vW/2wo
+N4o4xsuuhL6BAATYf1xsekI/w3Xy0i7rZ7SAVpHj7quN9PKtGakZL8PQjHWmb23k
+K3zAldya1sScJ4poJjJ6t8nfuJzKAqweRQN1h65IPe+YkcmGkVPc+UopqSmQfHhB
+YK7GKDkv+0gqaXnAifec8/muEDHG75EThxaaDf4V4E8Peyvq6A==
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=test.example.com, O=Test Organization
+issuer=CN=Intermediate CA 2, O=Test Organization
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 3171 bytes and written 407 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Protocol: TLSv1.3
+Server public key is 2048 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+>>> TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 12
+>>> TLS 1.2, InnerContent [length 0001]
+    17
+DONE
+write to 0x600003b87c80 [0x12e01ec03] (23 bytes => 23 (0x17))
+0000 - 17 03 03 00 12 eb 37 98-5b 3c 23 b5 d3 e6 7d f8   ......7.[<#...}.
+0010 - ce 7e a3 e1 40 c4 93                              .~..@..
+>>> TLS 1.2, RecordHeader [length 0005]
+    17 03 03 00 13
+>>> TLS 1.2, InnerContent [length 0001]
+    15
+write to 0x600003b87c80 [0x12e01ec03] (24 bytes => 24 (0x18))
+0000 - 17 03 03 00 13 78 2d 04-a3 01 20 61 ac 07 f4 a3   .....x-... a....
+0010 - 3c cb a1 9b 32 1e 7c 64-                          <...2.|d
+>>> TLS 1.3, Alert [length 0002], warning close_notify
+    01 00
+read from 0x600003b87c80 [0x12e00c600] (16384 bytes => 287 (0x11F))
+0000 - 17 03 03 01 1a 9f 7d d5-46 bb f8 35 61 39 63 91   ......}.F..5a9c.
+0010 - a4 93 47 da 60 38 1a 80-73 33 c2 22 3d 3b 14 b4   ..G.`8..s3."=;..
+0020 - eb 59 ea 3f e2 71 cc 2c-4b 32 e1 83 8c ec 61 ba   .Y.?.q.,K2....a.
+0030 - 4f f5 c3 3f 12 06 c9 54-6e c3 e4 c1 2a 63 45 5e   O..?...Tn...*cE^
+0040 - fd 6e 96 b2 4a 3e 52 1d-e6 c9 01 67 87 c1 6c 20   .n..J>R....g..l 
+0050 - 46 40 a6 2a d4 cd 14 ab-72 d4 03 36 87 2a 2d 00   F@.*....r..6.*-.
+0060 - fc b0 d5 97 ce e0 f7 ea-88 99 9a d8 87 9a ee 31   ...............1
+0070 - 65 6e d3 63 a4 d3 7c 93-45 f4 16 a7 5f 80 89 10   en.c..|.E..._...
+0080 - da ef de d6 ee df 77 4b-ed 5c 65 02 2c 84 4a 8c   ......wK.\e.,.J.
+0090 - be 44 0c 4c 76 95 cb 30-01 58 3e 46 48 42 ac 0f   .D.Lv..0.X>FHB..
+00a0 - a4 71 8a 0b d4 51 1c 85-a9 99 d9 73 40 57 16 24   .q...Q.....s@W.$
+00b0 - 62 c2 24 22 ef c5 35 3f-09 f3 ae 9c 5a 0a dc cd   b.$"..5?....Z...
+00c0 - fc 85 3b d8 6f 11 80 b2-2f 4a 4e 4c 97 03 b4 2f   ..;.o.../JNL.../
+00d0 - e7 c9 02 f4 47 01 08 2d-71 18 bd 0b c0 a4 26 97   ....G..-q.....&.
+00e0 - 64 1f 7e ed a1 a2 6f 71-44 5d aa 85 3b f8 96 c0   d.~...oqD]..;...
+00f0 - b1 77 e9 fa 0d 60 1b 98-76 bc 77 91 f1 25 24 d3   .w...`..v.w..%$.
+0100 - b4 f6 ad 75 98 8b 87 5b-92 64 47 8a 4e 9a 11 57   ...u...[.dG.N..W
+0110 - 59 36 c9 87 52 a5 9d 82-d7 86 13 07 52 76 a9      Y6..R.......Rv.
+read from 0x600003b87c80 [0x12e00c600] (16384 bytes => 287 (0x11F))
+0000 - 17 03 03 01 1a c6 1e e7-93 b9 ed f3 ba ad 52 64   ..............Rd
+0010 - 40 03 42 7f 32 0a 4e e7-af cd 87 f6 65 57 91 42   @.B.2.N.....eW.B
+0020 - 18 a9 7d 63 ff f1 06 28-2d 6c f1 0e 8a 36 e6 52   ..}c...(-l...6.R
+0030 - 29 e0 f8 a6 7a dc b1 ef-0f c1 77 86 84 d8 8e 56   )...z.....w....V
+0040 - da 04 28 12 0e fd 85 13-76 7e 4d fb c0 38 fd 32   ..(.....v~M..8.2
+0050 - 77 61 ff 0e ae f2 47 df-ef 85 3f db d4 1a 62 cd   wa....G...?...b.
+0060 - 3f 1d 00 2c 8d 47 7b a7-5d 5f 3a a9 48 e9 87 42   ?..,.G{.]_:.H..B
+0070 - 38 a4 55 e7 2f 4a aa 5a-80 53 bc 9d af 85 57 02   8.U./J.Z.S....W.
+0080 - ca 0f 6e 7b 67 b1 2b e7-3f 21 55 ee 6d 77 b2 f3   ..n{g.+.?!U.mw..
+0090 - dd 32 58 01 e6 e4 be 16-c9 d6 77 e7 2f 60 2c bf   .2X.......w./`,.
+00a0 - 45 15 24 89 59 15 e3 1c-4f 3b b6 b0 92 fd 0b 6a   E.$.Y...O;.....j
+00b0 - 85 bf 76 98 51 65 a0 f4-cb be cb a2 e6 ac 10 e6   ..v.Qe..........
+00c0 - 97 1e 8d 46 ae ca 3e 15-c0 01 b7 53 a2 47 ec 01   ...F..>....S.G..
+00d0 - a8 06 0e 90 ad 27 bf 2c-3e f1 d6 01 4a b8 01 c4   .....'.,>...J...
+00e0 - 18 c7 a5 57 ad fe a3 1a-1a e9 d5 74 5f 19 39 35   ...W.......t_.95
+00f0 - 6b 60 8f 7f 3e 14 2c ee-95 b7 4c b7 98 ec ee eb   k`..>.,...L.....
+0100 - 03 76 f3 9a 6b 5c 26 b8-5e de 59 2e b1 4f e5 77   .v..k\&.^.Y..O.w
+0110 - 3a ef fc b7 de 3c d1 18-79 03 93 f1 47 b0 46      :....<..y...G.F
+read from 0x600003b87c80 [0x12e00c600] (16384 bytes => 0)
